@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Import model
-model_pasut = pickle.load(open('model_pasut.pkl', 'rb'))
+model_pasut = pickle.load(open('modelpasut.pkl', 'rb'))
 
 # Membuat form
 st.title('Prediksi Gelombang Pasang Surut')
